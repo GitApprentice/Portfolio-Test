@@ -212,6 +212,7 @@
       left: 20px;
       height: 30px;
       width: 30px;
+      margin: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
       transition: all 0.5s ease-in-out;
       cursor: pointer;
     }
