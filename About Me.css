@@ -93,33 +93,33 @@
     }
 
     .carousel-inner {
-        height: 100vh;
-        width: 100vw;
+        height: 100%;
+        width: 100%;
     }
 
     .Traveling {
         
         margin: 0 auto;
-        min-height: 100%;
+        height: 100%;
     }
 
     .Cooking {
         
         margin: 0 auto;
-        min-height: 100%;
+        height: 100%;
     }
 
     .Fitness {
         
         margin: 0 auto;
-        min-height: 100%;
+        height: 100%;
         
     }
 
     .Learning {
         
         margin: 0 auto;
-        min-height: 100%;
+        height: 100%;
     }
 
     .carousel-caption {
