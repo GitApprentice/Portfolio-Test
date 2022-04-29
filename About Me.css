@@ -125,7 +125,7 @@
     .carousel-caption {
         border: 1px solid black;
         background-color: rgba(39, 39, 39, 0.8);
-        height: 20%;
+        height: 25%;
         left: 50%;
         transform: translateX(-50%);
         min-width: 100%;
