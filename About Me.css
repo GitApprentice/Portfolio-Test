@@ -87,6 +87,7 @@
 
     body {
         display: flex;
+        height: 100%;
         align-items: center;
         background-color: rgb(68, 68, 68);
     }
