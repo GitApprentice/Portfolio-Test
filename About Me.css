@@ -20,21 +20,21 @@ img {
 .carousel-caption {
     background-color: rgb(19, 19, 19);
     border-top: 1px solid rgb(158, 158, 158);
-    display: flex;
-    align-items: center;
-    justify-content: center;
     position: absolute;
     bottom: 0;
     left: 0;
     min-width: 100%;
     height: 20%;
-    padding: 2%;
+    padding: 3%;
 }
 
 p {
     color: rgb(153, 153, 153);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 8px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -51,9 +51,6 @@ p {
     .carousel-caption {
         background-color: rgb(19, 19, 19);
         border-top: 1px solid rgb(158, 158, 158);
-        display: flex;
-        align-items: center;
-        justify-content: center;
         position: absolute;
         bottom: 0;
         left: 0;
@@ -66,28 +63,21 @@ p {
         color: rgb(153, 153, 153);
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 8px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
     }
 }
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-    html,
-    body {
-        height: 100%;
-    }
-
     img {
-        height: 100%;
+        height: auto;
     }
-
-    
 
     .carousel-caption {
         background-color: rgb(19, 19, 19);
         border-top: 1px solid rgb(158, 158, 158);
-        display: flex;
-        align-items: center;
-        justify-content: center;
         position: absolute;
         bottom: 0;
         left: 0;
@@ -100,6 +90,9 @@ p {
         color: rgb(153, 153, 153);
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 12px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
     }
 }
 
@@ -121,9 +114,6 @@ p {
     .carousel-caption {
         background-color: rgb(19, 19, 19);
         border-top: 1px solid rgb(158, 158, 158);
-        display: flex;
-        align-items: center;
-        justify-content: center;
         position: absolute;
         bottom: 0;
         left: 0;
@@ -136,21 +126,17 @@ p {
         color: rgb(153, 153, 153);
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 12px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
     }
 }
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-    img {
-        height: 100vh;
-    }
-
     .carousel-caption {
         background-color: rgb(19, 19, 19);
         border-top: 1px solid rgb(158, 158, 158);
-        display: flex;
-        align-items: center;
-        justify-content: center;
         position: absolute;
         bottom: 0;
         left: 0;
@@ -162,6 +148,9 @@ p {
     p {
         color: rgb(153, 153, 153);
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
     }
 }
 
@@ -174,9 +163,7 @@ p {
     .carousel-caption {
         background-color: rgb(19, 19, 19);
         border-top: 1px solid rgb(158, 158, 158);
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        position: absolute;
         width: 100%;
         height: 20%;
         padding: 2%;
@@ -185,6 +172,9 @@ p {
     p {
         color: rgb(153, 153, 153);
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
     }
 }
 
@@ -197,9 +187,6 @@ p {
     .carousel-caption {
         background-color: rgb(19, 19, 19);
         border-top: 1px solid rgb(214, 0, 0);
-        display: flex;
-        align-items: center;
-        justify-content: center;
         position: absolute;
         bottom: 0;
         left: 0;
@@ -211,6 +198,9 @@ p {
     p {
         color: rgb(153, 153, 153);
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
     }
 }
 
