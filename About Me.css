@@ -71,8 +71,16 @@ p {
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
+    html {
+        height: -webkit-fill-available;
+    }
+
+    body {
+        height: -webkit-fill-available;
+    }
+
     img {
-        height: auto;
+        height: 100vh;
     }
 
     .carousel-caption {
