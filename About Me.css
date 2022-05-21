@@ -73,10 +73,12 @@ p {
 @media (min-width: 768px) {
     html {
         height: -webkit-fill-available;
+        height: fill-available;
     }
 
     body {
         height: -webkit-fill-available;
+        height: fill-available;
     }
 
     img {
