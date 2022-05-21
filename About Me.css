@@ -1,10 +1,10 @@
-html,
-body {
+html{
     height: 100%;
 }
 
 body {
     background-color: rgb(8, 8, 8);
+    height: 100%;
 }
 
 .carousel {
@@ -39,7 +39,10 @@ p {
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
-    html,
+    html {
+        height: 100%;
+    }
+
     body {
         height: 100%;
     }
@@ -72,17 +75,15 @@ p {
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
     html {
-        height: -webkit-fill-available;
-        height: fill-available;
+        height: 100%;
     }
 
     body {
-        height: -webkit-fill-available;
-        height: fill-available;
+        height: 100%;
     }
 
     img {
-        height: 100vh;
+        height: 100%;
     }
 
     .carousel-caption {
@@ -107,8 +108,12 @@ p {
 }
 
 @media (min-width: 768px) and (min-height: 650px) {
+    html {
+        height: 100%;
+    }
+
     body {
-        background-color: rgb(8, 8, 8);
+        height: 100%;
     }
 
     .carousel {
@@ -144,6 +149,14 @@ p {
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
+    height {
+        height: 100%;
+    }
+
+    body {
+        height: 100%;
+    }
+
     .carousel-caption {
         background-color: rgb(19, 19, 19);
         border-top: 1px solid rgb(158, 158, 158);
@@ -166,8 +179,16 @@ p {
 
 /*X-Large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
+    html {
+        height: 100%;
+    }
+
+    body {
+        height: 100%;
+    }
+
     img {
-        height: 100vh;
+        height: 100%;
     }
 
     .carousel-caption {
@@ -190,8 +211,16 @@ p {
 
 /*XX-Large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1400px) {
+    html {
+        height: 100%;
+    }
+
+    body {
+        height: 100%;
+    }
+
     img {
-        height: 100vh;
+        height: 100%;
     }
 
     .carousel-caption {
