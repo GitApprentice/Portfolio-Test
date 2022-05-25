@@ -1,11 +1,18 @@
-html {
+html,
+body {
+    width: 100%;
     height: 100%;
 }
 
 body {
     background-color: rgb(0, 0, 0);
-    border: 1px solid red;
-    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.carousel, .carousel-inner, .carousel-item, img {
+    width: 100%;
+    height: 45%;
 }
 
 .carousel-caption {
@@ -30,6 +37,11 @@ p {
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
+    html,
+    body {
+        height: 100%;
+    }
+
     .carousel-caption {
         background-color: rgb(19, 19, 19);
         border-top: 1px solid rgb(158, 158, 158);
@@ -55,22 +67,12 @@ p {
 @media (min-width: 768px) {
     html,
     body {
+        width: 100%;
         height: 100%;
     }
 
-    .carousel {
-        height: 100%;
-    }
-
-    .carousel-inner {
-        height: 100%;
-    }
-
-    .carousel-item {
-        height: 100%;
-    }
-
-    img {
+    .carousel, .carousel-inner, .carousel-item, img {
+        width: 100%;
         height: 100%;
     }
 
@@ -96,6 +98,15 @@ p {
 }
 
 @media (min-width: 768px) and (min-height: 650px) {
+    html,
+    body {
+        height: 100%;
+    }
+
+    .carousel, .carousel-inner, .carousel-item, img {
+        height: 100%;
+    }
+
     .carousel-caption {
         background-color: rgb(19, 19, 19);
         border-top: 1px solid rgb(158, 158, 158);
@@ -119,6 +130,11 @@ p {
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
+    html,
+    body {
+        height: 100%;
+    }
+
     .carousel-caption {
         background-color: rgb(19, 19, 19);
         border-top: 1px solid rgb(158, 158, 158);
@@ -141,6 +157,11 @@ p {
 
 /*X-Large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
+    html,
+    body {
+        height: 100%;
+    }
+    
     .carousel-caption {
         background-color: rgb(19, 19, 19);
         border-top: 1px solid rgb(158, 158, 158);
@@ -161,6 +182,11 @@ p {
 
 /*XX-Large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1400px) {
+    html,
+    body {
+        height: 100%;
+    }
+
     .carousel-caption {
         background-color: rgb(19, 19, 19);
         border-top: 1px solid rgb(214, 0, 0);
